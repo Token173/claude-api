@@ -31,9 +31,9 @@ Token173聚合中转API是一个高效的Claude API、Open AI、Midjourney API�
 ![Claude API 中转站]()
 
 
-## 为什么选择【Token173聚合中转API】（token173.com）？
+## 为什么选择【Token173聚合中转API】（token173.net）？
 
-在众多中转服务中，Token173聚合中转API（token173.com）凭借稳定性、易用性与性价比脱颖而出：
+在众多中转服务中，Token173聚合中转API（token173.net）凭借稳定性、易用性与性价比脱颖而出：
 
 • 多模型支持：支持国内外主流大模型，满足不同场景的需求。
 
@@ -46,9 +46,9 @@ Token173聚合中转API是一个高效的Claude API、Open AI、Midjourney API�
  • 开发者友好：提供完善的文档、调用示例与调试工具，接入成本低。
 
  ## 官方链接
-    •	官网：https://token173.com
-	•	教程文档 & 示例代码：https://docs.token173.com
-	•	参考资料：https://docs.token173.com/docs/introduction
+    •	官网：https://token173.net
+	•	教程文档 & 示例代码：https://docs.token173.net
+	•	参考资料：https://docs.token173.net/docs/introduction
 
 
 # Token173中转API实现任意模型Claude Compatible接入！
@@ -65,8 +65,8 @@ Token173聚合中转API是一个高效的Claude API、Open AI、Midjourney API�
 
 | 接口类型 | 示例请求路径 |
 | --- | --- |
-| OpenAI 格式 | `token173.com/v1/chat/completions` |
-| Claude 格式 | `token173.com/v1/messages` |
+| OpenAI 格式 | `token173.net/v1/chat/completions` |
+| Claude 格式 | `token173.net/v1/messages` |
 
 ### 🧾 请求体格式差异
 
@@ -236,7 +236,7 @@ Claude Code 是 Anthropic 推出的一个 agentic 编码工具 (agentic coding t
 
 ## ⭐**Token173中转API专属功能**
 
-Token173中转API（token173.com）所有LLM 模型均支持在 Claude code 中使用
+Token173中转API（token173.net）所有LLM 模型均支持在 Claude code 中使用
 
 如果 Claude code 无法修改调用模型，可参考教程令牌中，设置模型转发
 
@@ -273,11 +273,11 @@ npm install -g @anthropic-ai/claude-code
 
 ###### **方法一：使用 Bash（推荐）**
 ```
-echo 'export ANTHROPIC_AUTH_TOKEN="sk-xxx"' >> ~/.bash_profile echo 'export ANTHROPIC_BASE_URL="https://token173.com"' >> ~/.bash_profile source ~/.bash_profile
+echo 'export ANTHROPIC_AUTH_TOKEN="sk-xxx"' >> ~/.bash_profile echo 'export ANTHROPIC_BASE_URL="https://token173.net"' >> ~/.bash_profile source ~/.bash_profile
 ```
 ###### **方法二：使用 Zsh（如果使用 Oh My Zsh）**
 ```
-echo 'export ANTHROPIC_AUTH_TOKEN="sk-xxx"' >> ~/.zshrc echo 'export ANTHROPIC_BASE_URL="https://token173.com"' >> ~/.zshrc source ~/.zshrc
+echo 'export ANTHROPIC_AUTH_TOKEN="sk-xxx"' >> ~/.zshrc echo 'export ANTHROPIC_BASE_URL="https://token173.net"' >> ~/.zshrc source ~/.zshrc
 ```
 **注意：** 永久设置后需要重启终端才能生效。
 
@@ -337,7 +337,7 @@ d. 添加以下两个变量：
 
 变量名：ANTHROPIC_AUTH_TOKEN，变量值：sk-xxx
 
-变量名：ANTHROPIC_BASE_URL，变量值：https://token173.com
+变量名：ANTHROPIC_BASE_URL，变量值：https://token173.net
 
 e. 点击 "确定" 保存
 
@@ -346,14 +346,14 @@ e. 点击 "确定" 保存
 
 ```PowerShell
 [Environment]::SetEnvironmentVariable("ANTHROPIC_AUTH_TOKEN", "sk-xxx", "User")
-[Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://token173.com", "User")
+[Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://token173.net", "User")
 ```
 ###### **方法三：命令提示符（永久设置）**
 
 CMD
 ```
 setx ANTHROPIC_AUTH_TOKEN "sk-xxx"
-setx ANTHROPIC_BASE_URL "https://token173.com"
+setx ANTHROPIC_BASE_URL "https://token173.net"
 ```
 **注意：** 永久设置后需要重启终端才能生效。推荐使用永久配置方式。
 
@@ -369,7 +369,7 @@ C:\Users\{user}\.claude\settings.json
     "env": {
       "ANTHROPIC_MODEL": "claude-sonnet-4-20250514",
       "ANTHROPIC_SMALL_FAST_MODEL": "claude-sonnet-4-20250514",
-      "ANTHROPIC_BASE_URL": "https://token173.com",
+      "ANTHROPIC_BASE_URL": "https://token173.net",
       "ANTHROPIC_AUTH_TOKEN": "sk-AG2"
     }
   }
@@ -1017,12 +1017,12 @@ API 列表：
 
 1. 注册账号，免费体验，注册即送0.2美金额度，1刀起充
 2. 前往[令牌页](/token)，添加令牌
-3. 修改应用 BASE_URL为中转接口调用地址： https://token173.com  设置 API Key 为添加的令牌
+3. 修改应用 BASE_URL为中转接口调用地址： https://token173.net  设置 API Key 为添加的令牌
 
 不同的客户端需要填写不同的BASE_URL, 请尝试如下地址  
-https://token173.com  
-https://token173.com/v1  
-https://token173.com/v1/chat/completions  
+https://token173.net  
+https://token173.net/v1  
+https://token173.net/v1/chat/completions  
 
 模型名在[首页](/) -> 支持模型中的第一列 模型 中   
 可在[聊天页](/chat) 进行测试或使用
@@ -1031,7 +1031,7 @@ https://token173.com/v1/chat/completions
 
 ### Midjourney 接入教程
 
-Midiourney-Proxy主机：https://token173.com
+Midiourney-Proxy主机：https://token173.net
 
 Midiourney-Proxy Secret ：自己后台生成的令牌
 
@@ -1047,7 +1047,7 @@ Midiourney-Proxy Secret ：自己后台生成的令牌
 /mj-fast/mj 是 fast mode   
 /mj-turbo/mj 是 turbo mode   
 /mj-relax/mj 是 relax mode   
-例如： https://token173.com/
+例如： https://token173.net/
 2. prompt 中通过 mj 参数指定： --relax\--fast\--turbo
 
 切换 MJ 返回的图片地址：
@@ -1056,7 +1056,7 @@ Midiourney-Proxy Secret ：自己后台生成的令牌
 /mj-{mode}-relay/mj 是使用服务转发地址，图片国内访问较快   
 /mj-{mode}-origin/mj 是使用discord 原地址，图片国外访问很快   
 /mj-{mode}-proxy/mj 是使用管理员设置的代理地址，图片国内访问较快  
-例如： https://token173.com/
+例如： https://token173.net/
 
 
 
@@ -1085,13 +1085,13 @@ Midiourney-Proxy Secret ：自己后台生成的令牌
 
 ### **python openai官方库（使用AutoGPT，langchain等）**
 
-示例代码请参考[demo.py](https://token173.com/demo.py)
+示例代码请参考[demo.py](https://token173.net/demo.py)
 
 ***方法一***
 
 ```python
 import openai
-openai.api_base = "https://token173.com/v1"
+openai.api_base = "https://token173.net/v1"
 ```
 
 ***方法二（方法一不起作用用这个）***
@@ -1099,7 +1099,7 @@ openai.api_base = "https://token173.com/v1"
 修改环境变量OPENAI_API_BASE，各个系统怎么改环境变量请自行搜索，修改环境变量后不起作用请重启系统。
 
 ```sh
-OPENAI_API_BASE=https://token173.com/v1
+OPENAI_API_BASE=https://token173.net/v1
 ```
 
 
@@ -1108,7 +1108,7 @@ OPENAI_API_BASE=https://token173.com/v1
 找到`config.py`文件中的`API_URL_REDIRECT`配置并修改为以下内容：
 
 ```python
-API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://token173.com/v1/chat/completions"}
+API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://token173.net/v1/chat/completions"}
 ```
 
 
@@ -1118,6 +1118,6 @@ ChatGPT开源桌面应用，支持全部桌面平台。
 
 下载链接：https://github.com/Bin-Huang/chatbox/releases
 
-使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://token173.com`即可
+使用方法：如图在设置中填入购买的密钥，并将代理设置为`https://token173.net`即可
 
 
