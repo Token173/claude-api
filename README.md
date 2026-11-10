@@ -11,7 +11,7 @@ Token173（https://token173.net）做的是把官方额度批量买下来、架�
 | `claude-opus-5-5` | 复杂重构、跨文件改代码、长文档推理 |
 | `claude-sonnet-5-5` | 日常主力，速度和质量折中 |
 | `claude-haiku-5-5` | 分类、抽取、批量清洗，便宜跑量 |
-| `claude-fable-5`、`claude-fable-5-1` | 创意写作、文案改写 |
+| `claude-fable-5-2`、`claude-fable-5-1`、`claude-fable-5` | 创意写作、文案改写、长周期前沿任务 |
 | `claude-opus-4-8` | 上一代，老项目不用改模型名 |
 
 同一个 Key 还能顺带调 `gpt-6-astra`、`gemini-3.8-flash`、`grok-4.7`，做横向对比时不用再准备第二套凭据。
