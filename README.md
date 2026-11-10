@@ -14,7 +14,7 @@ Token173（https://token173.net）做的是把官方额度批量买下来、架�
 | `claude-fable-5`、`claude-fable-5-1` | 创意写作、文案改写 |
 | `claude-opus-4-8` | 上一代，老项目不用改模型名 |
 
-同一个 Key 还能顺带调 `gpt-6.2-astra`、`gemini-3.8-flash`、`grok-4.7`，做横向对比时不用再准备第二套凭据。
+同一个 Key 还能顺带调 `gpt-6-astra`、`gemini-3.8-flash`、`grok-4.7`，做横向对比时不用再准备第二套凭据。
 
 ## Claude Code 接入
 
